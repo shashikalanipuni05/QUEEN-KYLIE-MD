@@ -38,7 +38,7 @@ let downloadUrl = down.dl_url
 
 //send audio
 await conn.sendMessage(from,{audio:{url: downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"QUEEN-KYLIE-MD"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"*©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*"},{quoted:mek})
 }catch(e){
 reply(`${e}`)
 }
