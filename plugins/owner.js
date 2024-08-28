@@ -14,9 +14,10 @@ let dec = `*🧚‍♀️𝐐𝐔𝐄𝐄𝐍 𝐊𝐘𝐋𝐈𝐄-𝐌𝐃 𝐕
 
 > *𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢* 
 
-*⚡ɴᴀᴍᴇ -: ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*
+*⚡ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: ꜱᴀʜᴀꜱ ɴᴇᴛʜꜱᴀʀᴀ (ꜱᴀʜᴀꜱ ᴛᴇᴄʜ)*
 *⚡ɴᴜᴍʙᴇʀ* -: 94718913389
-*⚡ᴏᴡɴᴇʀ* -: https://www.youtube.com/@Sahas_Tech
+*⚡ʏᴏᴜᴛᴜʙᴇ -:* https://www.youtube.com/@Sahas_Tech
+*⚡ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ-:* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
 
 *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*
 `
