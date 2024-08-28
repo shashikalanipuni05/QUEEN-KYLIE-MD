@@ -6,7 +6,7 @@
 
 📍ＮＥＷ ＶＥＲＳＩＯＮ ＣＯＭＩＮＧ ＳＯＯＮ...📍
 
-📍𝗣𝗔𝗜𝗥 𝗖𝗢𝗗 QUEEN-KYLIE-MD📍
+📍𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘 QUEEN-KYLIE-MD📍
 
 <a href="https://pair-web-public.koyeb.app/"><img src="https://i.ibb.co/5BGSVZw/pair-code-btn-zusyco.png" alt="PAIR-CODE" border="2" width="170" height="41" ></a>
 
