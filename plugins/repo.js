@@ -10,7 +10,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*💻✅ VIP BOT WHATS APP QUEEN-KYLIE-MD*
+let dec = `*💻✅ VIP BOT WHATSAPP QUEEN-KYLIE-MD*
 
 *📍ℝ𝔼ℙ𝕆-𝕃𝕀ℕ𝕂 ❤️‍🔥👇*
 
