@@ -11,8 +11,7 @@ let baseUrl;
 })();
 
 
-const yourName = "*QUEEN-KYLIE-MD 👾*
-    *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*";
+const yourName = "*QUEEN-KYLIE-MD 👾*";
 
 
 
