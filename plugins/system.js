@@ -1,1 +1,28 @@
-const _0x36ad9f=_0x1bc0;(function(_0x436f0f,_0x1bb1d0){const _0x44e977=_0x1bc0,_0x5a9204=_0x436f0f();while(!![]){try{const _0x10e74e=-parseInt(_0x44e977(0x175))/0x1+-parseInt(_0x44e977(0x164))/0x2*(parseInt(_0x44e977(0x16c))/0x3)+parseInt(_0x44e977(0x165))/0x4*(parseInt(_0x44e977(0x170))/0x5)+-parseInt(_0x44e977(0x163))/0x6+-parseInt(_0x44e977(0x16e))/0x7+parseInt(_0x44e977(0x16a))/0x8+parseInt(_0x44e977(0x176))/0x9;if(_0x10e74e===_0x1bb1d0)break;else _0x5a9204['push'](_0x5a9204['shift']());}catch(_0x42caa1){_0x5a9204['push'](_0x5a9204['shift']());}}}(_0x47d9,0x60df9));function _0x1bc0(_0x24399a,_0x326a99){const _0x47d97b=_0x47d9();return _0x1bc0=function(_0x1bc04e,_0x2f4aef){_0x1bc04e=_0x1bc04e-0x163;let _0x42be82=_0x47d97b[_0x1bc04e];return _0x42be82;},_0x1bc0(_0x24399a,_0x326a99);}const {cmd,commands}=require(_0x36ad9f(0x174)),os=require('os'),{runtime}=require(_0x36ad9f(0x177));cmd({'pattern':_0x36ad9f(0x167),'alias':[_0x36ad9f(0x168),'botinfo'],'desc':_0x36ad9f(0x178),'category':_0x36ad9f(0x166),'filename':__filename},async(_0x3ec0bd,_0x20cca6,_0x8dc825,{from:_0x5f4484,quoted:_0x3f503b,body:_0x3fac81,isCmd:_0x165f99,command:_0x238036,args:_0x4c9ca5,q:_0x3f800c,isGroup:_0x396b2e,sender:_0x3a4641,senderNumber:_0x45fa3a,botNumber2:_0x4be7b5,botNumber:_0x5e5c86,pushname:_0x3d77e0,isMe:_0x1d0bdc,isOwner:_0x48e55b,groupMetadata:_0x1a9358,groupName:_0x32b7d8,participants:_0x47842b,groupAdmins:_0x3df3ee,isBotAdmins:_0x159b8d,isAdmins:_0x398531,reply:_0x31a401})=>{const _0x4af4db=_0x36ad9f;try{let _0x5bd7aa='┌────────────────────\x0a\x0a\x20\x20\x20\x20*├\x20⏳Uptime:-\x20\x20'+runtime(process[_0x4af4db(0x17a)]())+_0x4af4db(0x179)+(process[_0x4af4db(0x16d)]()[_0x4af4db(0x16b)]/0x400/0x400)[_0x4af4db(0x173)](0x2)+_0x4af4db(0x171)+Math[_0x4af4db(0x172)](require('os')['totalmem']/0x400/0x400)+_0x4af4db(0x16f)+os['hostname']()+_0x4af4db(0x169);return _0x31a401(''+_0x5bd7aa);}catch(_0x5b7a06){console['log'](_0x5b7a06),_0x31a401(''+_0x5b7a06);}});function _0x47d9(){const _0x265d28=['MB\x20/\x20','round','toFixed','../command','62265RoMkwk','5069286EwFtoW','../lib/functions','check\x20up\x20time','*\x20\x20\x20\x20\x0a\x0a\x20\x20\x20\x20*├\x20📟Ram\x20usage:-\x20','uptime','4149216ZnKZGL','290UFyiVg','187628bWpluw','main','system','status','*\x0a\x0a\x20\x20\x20\x20*├\x20👨‍💻Owner\x20:-\x20Sahas\x20Nethsara\x20(Sahas\x20Tech)*\x20\x20\x20\x0a\x0a\x20\x20\x20\x20*├\x20🤖version:\x201.5.0*\x0a\x0a\x20\x20\x20\x20└───────────────────────\x0a\x0a\x20\x20\x20\x20*©Qᴜᴇᴇɴ\x20ᴋʏʟɪᴇ-ᴍᴅ\x20ʙʏ\x20ꜱᴀʜᴀꜱ\x20ᴛᴇᴄʜッ*','4223280uqfrjL','heapUsed','3327tJLHJn','memoryUsage','756798YkgKlN','MB*\x0a\x0a\x20\x20\x20\x20*├\x20⚙️HostName:-\x20','35hkvCae'];_0x47d9=function(){return _0x265d28;};return _0x47d9();}
+const {cmd , commands} = require('../command')
+const os = require("os")
+const {runtime} = require('../lib/functions')
+
+cmd({
+    pattern: "system",
+    alias: ["status","botinfo"],
+    desc: "check up time",
+    category: "main",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{ 
+
+let status =`┌────────────────────
+    *├ ⏳Uptime:-  ${runtime(process.uptime())}*    
+    *├ 📟Ram usage:- ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+    *├ ⚙️HostName:- ${os.hostname()}*
+    *├ 👨‍💻Owner :- Sahas Nethsara (Sahas Tech)*   
+    *├ 🤖version: 1.0.0*
+    └───────────────────────
+    *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
+return reply(`${status}`)
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
