@@ -24,7 +24,7 @@ let dec = `*💻✅ VIP BOT WHATSAPP QUEEN-KYLIE-MD*
 
 🧚‍♀️◦ https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
 
-*©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*
+*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/46873ff90be79238e56e0.jpg`},caption:dec},{quoted:mek});
 
