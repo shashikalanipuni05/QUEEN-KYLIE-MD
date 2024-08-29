@@ -1,1 +1,23 @@
-0x398889[_0x1467cd(0xd2)](_0x2ed02d,{'text':_0x1467cd(0xd1)+_0x2f22f3+'ms'},{'quoted':_0x46ead8});}catch(_0x7d7190){console[_0x1467cd(0xcc)](_0x7d7190),_0xc5419d(''+_0x7d7190);}})
+const config = require('../config')
+const { cmd, commands } = require('../command')
+
+cmd({
+    pattern: "ping",
+    desc: "Check bot's response time.",
+    category: "main",
+    react: "✅",
+    filename: __filename
+},
+async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const startTime = Date.now()
+        const message = await conn.sendMessage(from, { text: '𝗣𝗶𝗻𝗴𝗶𝗻𝗴...' })
+        const endTime = Date.now()
+        const ping = endTime - startTime
+        await conn.sendMessage(from, { text: `📍 Ping : ${ping}ms` }, { quoted: message })
+    } catch (e) {
+        console.log(e)
+        reply(`${e}`)
+    }
+})
+
