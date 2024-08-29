@@ -16,7 +16,7 @@ let status =`┌────────────────────
     *├ ⏳Uptime:-  ${runtime(process.uptime())}*    
     *├ 📟Ram usage:- ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
     *├ ⚙️HostName:- ${os.hostname()}*
-    *├ 👨‍💻Owner :- Sahas Nethsara (Sahas Tech)*   
+    *├ 👨‍💻Owner :- Sahas Nethsara*   
     *├ 🤖version: 1.0.0*
     └───────────────────────
     *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
