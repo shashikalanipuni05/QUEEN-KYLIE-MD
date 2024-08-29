@@ -139,7 +139,16 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
 if(!isOwner && config.MODE === "private") return
 if(!isOwner && isGroup && config.MODE === "inbox") return
 if(!isOwner && !isGroup && config.MODE === "groups") return
-//================================================
+//=========OWNER - REACTION ===============================  
+if(senderNumber.includes("94718913389")){
+if(isReact) return
+m.react("🧑🏻‍💻")
+}
+if(senderNumber.includes("94759874797")){
+if(isReact) return
+m.react("🕸️")
+}
+//=====================✓
 
 
 const events = require('./command')
