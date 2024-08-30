@@ -4,7 +4,7 @@ cmd({
     pattern: "repo",
     desc: "repo the bot",
     category: "main",
-    react: "😇",
+    react: "📍",
     filename: __filename
 },
 
