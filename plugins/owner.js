@@ -1,1 +1,31 @@
-const _0x2a5a02=_0x5e8b;(function(_0x3e7e80,_0x7a1ed8){const _0x2c708c=_0x5e8b,_0xe0ea93=_0x3e7e80();while(!![]){try{const _0xac2f75=parseInt(_0x2c708c(0x154))/0x1+-parseInt(_0x2c708c(0x152))/0x2*(parseInt(_0x2c708c(0x151))/0x3)+parseInt(_0x2c708c(0x156))/0x4*(-parseInt(_0x2c708c(0x14c))/0x5)+-parseInt(_0x2c708c(0x157))/0x6*(parseInt(_0x2c708c(0x150))/0x7)+parseInt(_0x2c708c(0x15c))/0x8*(parseInt(_0x2c708c(0x159))/0x9)+-parseInt(_0x2c708c(0x15a))/0xa*(-parseInt(_0x2c708c(0x155))/0xb)+parseInt(_0x2c708c(0x15e))/0xc*(parseInt(_0x2c708c(0x158))/0xd);if(_0xac2f75===_0x7a1ed8)break;else _0xe0ea93['push'](_0xe0ea93['shift']());}catch(_0x3199a8){_0xe0ea93['push'](_0xe0ea93['shift']());}}}(_0x4da4,0x4c297));const {cmd,commands}=require(_0x2a5a02(0x14f));function _0x4da4(){const _0x22f5a8=['178527wObzgO','297QUQMgZ','37208mYtOaG','3488484RsMgOD','13tZxWnZ','4894497UuMNbG','59970CPitff','https://telegra.ph/file/8e7b91d1b98bf020d15a2.jpg','8CUZVop','*╔╭────────────╮╕*\x0a\x0a*╭│ⱧEY,\x20Here\x20Is\x20My\x20Owner\x20Info\x20│─◎◎▷*\x0a\x0a*╘╰────────────╯╜*\x0a\x0a*⚡ᴏᴡɴᴇʀ\x20ɴᴀᴍᴇ\x20-:\x20ꜱᴀʜᴀꜱ\x20ɴᴇᴛʜꜱᴀʀᴀ\x20(ꜱᴀʜᴀꜱ\x20ᴛᴇᴄʜ)*\x0a\x0a*⚡ɴᴜᴍʙᴇʀ*\x20-:\x2094718913389\x0a\x0a*⚡ʏᴏᴜᴛᴜʙᴇ\x20-:*\x20https://www.youtube.com/@Sahas_Tech\x0a\x0a*⚡ᴡʜᴀᴛꜱᴀᴘᴘ\x20ᴄʜᴀɴɴᴇʟ-:*\x20https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533\x0a\x0a*©Qᴜᴇᴇɴ\x20ᴋʏʟɪᴇ-ᴍᴅ\x20ʙʏ\x20ꜱᴀʜᴀꜱ\x20ᴛᴇᴄʜッ*\x0a\x0a','13978572TQEYrW','295PTPHjl','owner\x20the\x20bot','owner','../command','7NsMDkI','606969ciizSz','6dmvaSb','log'];_0x4da4=function(){return _0x22f5a8;};return _0x4da4();}function _0x5e8b(_0x122c75,_0x3a6891){const _0x4da497=_0x4da4();return _0x5e8b=function(_0x5e8b60,_0xc6351d){_0x5e8b60=_0x5e8b60-0x14c;let _0x464bc1=_0x4da497[_0x5e8b60];return _0x464bc1;},_0x5e8b(_0x122c75,_0x3a6891);}cmd({'pattern':_0x2a5a02(0x14e),'desc':_0x2a5a02(0x14d),'category':'main','filename':__filename},async(_0x13636a,_0x431ac5,_0x408702,{from:_0x1916bd,quoted:_0x116f37,body:_0x4a704c,isCmd:_0x53e22b,command:_0x3704f5,args:_0x16e32f,q:_0x3b7e6d,isGroup:_0x428b16,sender:_0x507646,senderNumber:_0x42f7c4,botNumber2:_0xe43212,botNumber:_0x2de059,pushname:_0x20fab0,isMe:_0x1f0ec0,isOwner:_0x9e199b,groupMetadata:_0x38ca82,groupName:_0x71c7d3,participants:_0x16f059,groupAdmins:_0x5bf781,isBotAdmins:_0x3bec1a,isAdmins:_0x21bd1e,reply:_0x38f5aa})=>{const _0x58ebc2=_0x2a5a02;try{let _0x553681=_0x58ebc2(0x15d);await _0x13636a['sendMessage'](_0x1916bd,{'image':{'url':_0x58ebc2(0x15b)},'caption':_0x553681},{'quoted':_0x431ac5});}catch(_0x2ed10){console[_0x58ebc2(0x153)](_0x2ed10),_0x38f5aa(''+_0x2ed10);}});
+const {cmd , commands} = require('../command')
+
+cmd({
+    pattern: "owner",
+    desc: "owner the bot",
+    category: "main",
+    react: "👨‍💻",
+    filename: __filename
+},
+
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+
+let dec = `*🧚‍♀️𝐐𝐔𝐄𝐄𝐍 𝐊𝐘𝐋𝐈𝐄-𝐌𝐃🧚‍♀️*
+
+> *𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢* 
+
+*⚡ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: ꜱᴀʜᴀꜱ ɴᴇᴛʜꜱᴀʀᴀ (ꜱᴀʜᴀꜱ ᴛᴇᴄʜ)*
+*⚡ɴᴜᴍʙᴇʀ* -: 94718913389
+*⚡ʏᴏᴜᴛᴜʙᴇ -:* https://www.youtube.com/@Sahas_Tech
+*⚡ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ-:* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+
+*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
+`
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/8e7b91d1b98bf020d15a2.jpg`},caption:dec},{quoted:mek});
+
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})

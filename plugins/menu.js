@@ -1,1 +1,66 @@
-const _0x36add7=_0x3b84;(function(_0x409f26,_0x2ad9c4){const _0x5d79fa=_0x3b84,_0x15daeb=_0x409f26();while(!![]){try{const _0x18be92=-parseInt(_0x5d79fa(0x1ce))/0x1*(-parseInt(_0x5d79fa(0x1d1))/0x2)+parseInt(_0x5d79fa(0x1da))/0x3*(-parseInt(_0x5d79fa(0x1cf))/0x4)+parseInt(_0x5d79fa(0x1cc))/0x5*(parseInt(_0x5d79fa(0x1cd))/0x6)+-parseInt(_0x5d79fa(0x1d5))/0x7*(parseInt(_0x5d79fa(0x1d3))/0x8)+parseInt(_0x5d79fa(0x1dd))/0x9*(parseInt(_0x5d79fa(0x1d4))/0xa)+-parseInt(_0x5d79fa(0x1d6))/0xb*(parseInt(_0x5d79fa(0x1db))/0xc)+-parseInt(_0x5d79fa(0x1d0))/0xd;if(_0x18be92===_0x2ad9c4)break;else _0x15daeb['push'](_0x15daeb['shift']());}catch(_0x33ca30){_0x15daeb['push'](_0x15daeb['shift']());}}}(_0x3275,0xaec7e));const {cmd,commands}=require(_0x36add7(0x1dc));function _0x3b84(_0x3dc321,_0x38568a){const _0x3275cf=_0x3275();return _0x3b84=function(_0x3b848d,_0x279dfd){_0x3b848d=_0x3b848d-0x1cc;let _0x22358b=_0x3275cf[_0x3b848d];return _0x22358b;},_0x3b84(_0x3dc321,_0x38568a);}cmd({'pattern':_0x36add7(0x1d2),'desc':_0x36add7(0x1d8),'category':'menu','filename':__filename},async(_0x69a664,_0xb7a3e,_0x551c35,{from:_0x454ed1,quoted:_0x5ac126,body:_0x17bb7d,isCmd:_0x441db7,command:_0xd600e9,args:_0x10712d,q:_0x5e3365,isGroup:_0x3b87c9,sender:_0x11fc72,senderNumber:_0x37e228,botNumber2:_0x2cf8c5,botNumber:_0x792059,pushname:_0x1d482d,isMe:_0x5aec8f,isOwner:_0x175124,groupMetadata:_0x2d93a5,groupName:_0x258e48,participants:_0x3171d4,groupAdmins:_0x2955bc,isBotAdmins:_0x5b566d,isAdmins:_0x2722ab,reply:_0x155db5})=>{const _0x361f48=_0x36add7;try{let _0x4d9aba=_0x361f48(0x1d7);await _0x69a664['sendMessage'](_0x454ed1,{'image':{'url':_0x361f48(0x1d9)},'caption':_0x4d9aba},{'quoted':_0xb7a3e});}catch(_0x524f03){console['log'](_0x524f03),_0x155db5(''+_0x524f03);}});function _0x3275(){const _0x68c632=['menu','686384kFabUS','679570FtHRjw','14QSMWUA','231xgJOxj','*╭───────────◉◉►*\x0a\x0a*│Hey,\x20I\x27m\x20QUEEN-KYLIE-MD,\x20Created\x20By*\x0a\x0a*│Sahas\x20Tech✨🍂*\x0a\x0a*│*\x0a\x0a*│I\x27m\x20always\x20here\x20for\x20help\x20you.😇\x20Love\x20│you\x20forever\x20♥️*\x0a\x0a*╰───────────◉◉►*\x0a\x0a*╭───────────◎◎►*\x0a\x0a│💻\x20𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱\x20𝗠𝗲𝗻𝘂\x20💻\x0a\x0a*│\x20─────────*\x0a\x0a*│►.song*\x0a\x0a*│►.video*\x0a\x0a*│►.fb*\x0a\x0a*│►.tt*\x0a\x0a*│►.mediafire*\x0a\x0a*│►.twitter*\x0a\x0a*│►.gdrive*\x0a\x0a│─────────\x0a\x0a│👾\x20𝗔𝗜\x20𝗠𝗲𝗻𝘂\x20👾\x0a\x0a*│─────────*\x0a\x0a*│►.ai*\x0a\x0a*│►.gen\x20(comming\x20soon!)*\x0a\x0a│─────────\x0a\x0a│⛥\x20𝗢𝘄𝗻𝗲𝗿\x20𝗠𝗲𝗻𝘂\x20⛥\x0a\x0a*│─────────*\x0a\x0a*│►.restart*\x0a\x0a│─────────\x0a\x0a│💫\x20𝗠𝗔𝗜𝗡\x20𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦💫\x0a\x0a*│─────────*\x0a\x0a*│►.menu*\x0a\x0a*│►.alive*\x0a\x0a*│►.ping*\x0a\x0a*│►.repo*\x0a\x0a*│►.owner*\x0a\x0a*╰─────────*\x0a\x0a│─────────\x0a\x0a│\x20✨𝗩𝗢𝗜𝗖𝗘\x20𝗠𝗘𝗡𝗨\x0a\x0a*│─────────*\x0a\x0a*│►.hi*\x0a\x0a*│►.hmm*\x0a\x0a*│►.mk*\x0a\x0a*│►.gn*\x0a\x0a*│►.gm*\x0a\x0a*│►.bye*\x0a\x0a*╰───────────◎◎►*\x0a\x0a*©Qᴜᴇᴇɴ\x20ᴋʏʟɪᴇ-ᴍᴅ\x20ʙʏ\x20ꜱᴀʜᴀꜱ\x20ᴛᴇᴄʜッ*','menu\x20the\x20bot','https://telegra.ph/file/938f552daff11c7f73378.jpg','11667NgAPxL','77052yjdLjs','../command','45MGxDvP','2251295GGyutE','18yVVDiC','1wbMsKV','872AQKuzq','3749174LGwFtK','935954nwelJE'];_0x3275=function(){return _0x68c632;};return _0x3275();}
+const {cmd , commands} = require('../command')
+
+cmd({
+    pattern: "menu",
+    desc: "menu the bot",
+    category: "menu",
+    react: "📜",
+    filename: __filename
+},
+
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+
+let dec = `*╭───────────◉◉►*
+*│Hey, I'm QUEEN-KYLIE-MD, Created By*
+*│Sahas Tech✨🍂*
+*│*
+*│I'm always here for help you.😇 Love │you forever ♥️*
+*╰───────────◉◉►*
+
+*╭───────────◎◎►*
+│💻 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗲𝗻𝘂 💻
+*│ ─────────*
+*│►.song*
+*│►.video*
+*│►.fb*
+*│►.tt*
+*│►.mediafire*
+*│►.twitter*
+*│►.gdrive*
+│─────────
+│👾 𝗔𝗜 𝗠𝗲𝗻𝘂 👾
+*│─────────*
+*│►.ai*
+*│►.gen (comming soon!)*
+│─────────
+│⛥ 𝗢𝘄𝗻𝗲𝗿 𝗠𝗲𝗻𝘂 ⛥
+*│─────────*
+*│►.restart*
+│─────────
+│💫 𝗠𝗔𝗜𝗡 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦💫
+*│─────────*
+*│►.menu*
+*│►.alive*
+*│►.ping*
+*│►.repo*
+*│►.owner*
+*╰─────────*
+│─────────
+│ ✨𝗩𝗢𝗜𝗖𝗘 𝗠𝗘𝗡𝗨
+*│─────────*
+*│►.hi*
+*│►.hmm*
+*│►.mk*
+*│►.gn*
+*│►.gm*
+*│►.bye*
+*╰───────────◎◎►*
+*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/938f552daff11c7f73378.jpg`},caption:dec},{quoted:mek});
+
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})

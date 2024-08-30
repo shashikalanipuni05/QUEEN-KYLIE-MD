@@ -1,1 +1,34 @@
-function _0x1716(_0xbf0781,_0x38a5d6){const _0x144ea3=_0x144e();return _0x1716=function(_0x1716b5,_0xaee285){_0x1716b5=_0x1716b5-0x134;let _0x4421bd=_0x144ea3[_0x1716b5];return _0x4421bd;},_0x1716(_0xbf0781,_0x38a5d6);}function _0x144e(){const _0xb24b7a=['1774762tcvAlx','main','3357425IeaIKY','33096GmsbtZ','https://telegra.ph/file/46873ff90be79238e56e0.jpg','repo\x20the\x20bot','14848iFGCLi','618CKkXDM','7132153pGwDhz','13bvCDQZ','60XAmpcZ','log','6OzlNjy','338559RanzYc','repo','*📍ℝ𝔼ℙ𝕆-𝕃𝕀ℕ𝕂\x20❤️‍🔥👇*\x0a\x0a🧚‍♀️◦https://github.com/QUEEN-KYLIE-MD-01/QUEEN-KYLIE-MD/tree/main\x0a\x0a*📍ℙ𝕃𝔼𝔸𝕊𝔼\x20𝕊𝕌𝔹𝕊ℂℝ𝕀𝔹𝔼\x20𝕄𝕐\x20𝕐𝕆𝕌𝕋𝕌𝔹𝔼\x20ℂℍ𝔸ℕℕ𝔼𝕃❤️‍🔥👇*\x0a\x0a🧚‍♀️◦\x20https://www.youtube.com/@Sahas_Tech\x0a\x0a*📍ℙ𝕃𝔼𝔸𝕊𝔼\x20𝔽𝕆𝕃𝕃𝕆𝕎\x20𝕄𝕐\x20𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ\x20ℂℍ𝔸ℕℕ𝔼𝕃\x20❤️‍🔥👇*\x0a\x0a🧚‍♀️◦\x20https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533\x0a\x0a*©Qᴜᴇᴇɴ\x20ᴋʏʟɪᴇ-ᴍᴅ\x20ʙʏ\x20ꜱᴀʜᴀꜱ\x20ᴛᴇᴄʜッ*\x0a\x0a','1257gSrvsK','4752aBpjrF','20mDNQFA'];_0x144e=function(){return _0xb24b7a;};return _0x144e();}const _0x39577a=_0x1716;(function(_0x11242a,_0x4dbc26){const _0x5bffc8=_0x1716,_0x93fe4d=_0x11242a();while(!![]){try{const _0x467fd6=parseInt(_0x5bffc8(0x139))/0x1*(-parseInt(_0x5bffc8(0x143))/0x2)+-parseInt(_0x5bffc8(0x136))/0x3*(-parseInt(_0x5bffc8(0x13b))/0x4)+-parseInt(_0x5bffc8(0x13e))/0x5+-parseInt(_0x5bffc8(0x135))/0x6*(-parseInt(_0x5bffc8(0x144))/0x7)+-parseInt(_0x5bffc8(0x142))/0x8*(parseInt(_0x5bffc8(0x13a))/0x9)+parseInt(_0x5bffc8(0x146))/0xa*(parseInt(_0x5bffc8(0x13c))/0xb)+parseInt(_0x5bffc8(0x13f))/0xc*(parseInt(_0x5bffc8(0x145))/0xd);if(_0x467fd6===_0x4dbc26)break;else _0x93fe4d['push'](_0x93fe4d['shift']());}catch(_0x77dcfd){_0x93fe4d['push'](_0x93fe4d['shift']());}}}(_0x144e,0x7d828));const {cmd,commands}=require('../command');cmd({'pattern':_0x39577a(0x137),'desc':_0x39577a(0x141),'category':_0x39577a(0x13d),'filename':__filename},async(_0x384bec,_0xc04aad,_0x38f186,{from:_0x3d13ed,quoted:_0x48f07a,body:_0x532895,isCmd:_0x23004e,command:_0x1f66f6,args:_0x4efdf7,q:_0x6e7abc,isGroup:_0x5499ec,sender:_0x20675d,senderNumber:_0x4925f7,botNumber2:_0x5ef159,botNumber:_0x157453,pushname:_0x1d8deb,isMe:_0x12d245,isOwner:_0x33c79a,groupMetadata:_0x4becc6,groupName:_0x3e1c66,participants:_0x1a8de2,groupAdmins:_0x22efd6,isBotAdmins:_0xf1c198,isAdmins:_0x47697c,reply:_0x59f298})=>{const _0x5b51cc=_0x39577a;try{let _0x5dfc86=_0x5b51cc(0x138);await _0x384bec['sendMessage'](_0x3d13ed,{'image':{'url':_0x5b51cc(0x140)},'caption':_0x5dfc86},{'quoted':_0xc04aad});}catch(_0x3983df){console[_0x5b51cc(0x134)](_0x3983df),_0x59f298(''+_0x3983df);}});
+const {cmd , commands} = require('../command')
+
+cmd({
+    pattern: "repo",
+    desc: "repo the bot",
+    category: "main",
+    react: "😇",
+    filename: __filename
+},
+
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+
+let dec = `*📍ℝ𝔼ℙ𝕆-𝕃𝕀ℕ𝕂 ❤️‍🔥👇*
+
+🧚‍♀️◦https://github.com/QUEEN-KYLIE-MD-01/QUEEN-KYLIE-MD/tree/main
+
+*📍ℙ𝕃𝔼𝔸𝕊𝔼 𝕊𝕌𝔹𝕊ℂℝ𝕀𝔹𝔼 𝕄𝕐 𝕐𝕆𝕌𝕋𝕌𝔹𝔼 ℂℍ𝔸ℕℕ𝔼𝕃❤️‍🔥👇*
+
+🧚‍♀️◦ https://www.youtube.com/@Sahas_Tech
+
+*📍ℙ𝕃𝔼𝔸𝕊𝔼 𝔽𝕆𝕃𝕃𝕆𝕎 𝕄𝕐 𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ ℂℍ𝔸ℕℕ𝔼𝕃 ❤️‍🔥👇*
+
+🧚‍♀️◦ https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+
+*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
+`
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/46873ff90be79238e56e0.jpg`},caption:dec},{quoted:mek});
+
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
