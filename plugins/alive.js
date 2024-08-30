@@ -27,7 +27,7 @@ let des = `*╔╭────────────╮╕*
 *│Menu💫*
 *╰───────────────◎◎▷*
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
-return await conn.sendMessage(from,{image: {url: https://telegra.ph/file/9b44e3266c065df601430.jpg},caption: des},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/9b44e3266c065df601430.jpg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
