@@ -1,4 +1,4 @@
-8const {cmd , commands} = require('../command')
+const {cmd , commands} = require('../command')
 
 cmd({
     pattern: "menu",
