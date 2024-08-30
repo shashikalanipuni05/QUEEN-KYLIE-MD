@@ -1,1 +1,35 @@
-function _0x2b98(){const _0x3c0cfc=['../command','10062KPsKtm','alive','850444sSmiLC','main','sendMessage','209186IBuagJ','306515AVearN','6874378adkbJn','2043932MYOiTB','*🤭\x20Hi\x20QUEEN-KYLIE-MD\x20Is\x20Online\x20Now\x20🔰*\x0a\x0a*🌈\x20Owner*\x20-\x20SAHAS\x20NETHSARA(SAHAS\x20TECH)\x0a\x0a*💫\x20Owner\x20Number*\x20-94718913389\x0a\x0a*💻✅\x20VIP\x20BOT\x20WHATSAPP\x20QUEEN-KYLIE-MD*\x0a\x0a*🪄𝕋𝕪𝕡𝕖\x20.𝕞𝕖𝕟𝕦\x20𝕋𝕠\x20𝔾𝕖𝕥\x20𝔹𝕠𝕥\x20𝕌𝕤𝕖𝕣\x20𝕄𝕖𝕟𝕦💗*\x0a\x0a*📍ℙ𝕃𝔼𝔸𝕊𝔼\x20𝕊𝕌𝔹𝕊ℂℝ𝕀𝔹𝔼\x20𝕄𝕐\x20𝕐𝕆𝕌𝕋𝕌𝔹𝔼\x20ℂℍ𝔸ℕℕ𝔼𝕃❤️‍🔥👇*\x0a\x0a🧚‍♀️◦\x20https://www.youtube.com/@Sahas_Tech\x0a\x0a*📍ℙ𝕃𝔼𝔸𝕊𝔼\x20𝔽𝕆𝕃𝕃𝕆𝕎\x20𝕄𝕐\x20𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ\x20ℂℍ𝔸ℕℕ𝔼𝕃\x20❤️‍🔥👇*\x0a\x0a🧚‍♀️◦\x20https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533\x0a\x0a*ᴛʜᴀɴᴋꜱ\x20ꜰᴏʀ\x20=\x20ꜱʜᴀᴅᴏᴡ-ᴍᴅ💗🍃*\x0a\x0a*©Qᴜᴇᴇɴ\x20ᴋʏʟɪᴇ-ᴍᴅ\x20ʙʏ\x20ꜱᴀʜᴀꜱ\x20ᴛᴇᴄʜッ*','12FMktRd','Check\x20bot\x20online\x20or\x20no.','../config','10672AbyZGJ','2166639sIzZwW','log'];_0x2b98=function(){return _0x3c0cfc;};return _0x2b98();}const _0x355d2d=_0x4646;(function(_0x5caea9,_0xf17944){const _0x292aa4=_0x4646,_0x39fea8=_0x5caea9();while(!![]){try{const _0x461bde=parseInt(_0x292aa4(0x112))/0x1+-parseInt(_0x292aa4(0x10f))/0x2+parseInt(_0x292aa4(0x11b))/0x3+parseInt(_0x292aa4(0x115))/0x4+-parseInt(_0x292aa4(0x113))/0x5*(-parseInt(_0x292aa4(0x117))/0x6)+parseInt(_0x292aa4(0x114))/0x7+parseInt(_0x292aa4(0x11a))/0x8*(-parseInt(_0x292aa4(0x10d))/0x9);if(_0x461bde===_0xf17944)break;else _0x39fea8['push'](_0x39fea8['shift']());}catch(_0x2e45ed){_0x39fea8['push'](_0x39fea8['shift']());}}}(_0x2b98,0x99e88));function _0x4646(_0x500a87,_0x4fdaed){const _0x2b9841=_0x2b98();return _0x4646=function(_0x464654,_0x4fab99){_0x464654=_0x464654-0x10d;let _0x17dac8=_0x2b9841[_0x464654];return _0x17dac8;},_0x4646(_0x500a87,_0x4fdaed);}const config=require(_0x355d2d(0x119)),{cmd,commands}=require(_0x355d2d(0x11d));cmd({'pattern':_0x355d2d(0x10e),'desc':_0x355d2d(0x118),'category':_0x355d2d(0x110),'filename':__filename},async(_0xf6443,_0x6fa01d,_0x2f9fa1,{from:_0x473302,quoted:_0x43f96b,body:_0x5c2209,isCmd:_0x53e408,command:_0x4014a1,args:_0x1dc4a4,q:_0x258123,isGroup:_0xf6c829,sender:_0x534d33,senderNumber:_0x5f22b2,botNumber2:_0x420d04,botNumber:_0x390576,pushname:_0x39679a,isMe:_0xbc4203,isOwner:_0x3f9c4d,groupMetadata:_0x320f56,groupName:_0x59e2a9,participants:_0x35bf90,groupAdmins:_0x48e848,isBotAdmins:_0x2a6706,isAdmins:_0x1257bf,reply:_0x3e4398})=>{const _0x452884=_0x355d2d;try{let _0xc4970b=_0x452884(0x116);return await _0xf6443[_0x452884(0x111)](_0x473302,{'image':{'url':config['ALIVE_IMG']},'caption':_0xc4970b},{'quoted':_0x6fa01d});}catch(_0x3be4a6){console[_0x452884(0x11c)](_0x3be4a6),_0x3e4398(''+_0x3be4a6);}});
+const config = require('../config')
+const {cmd , commands} = require('../command')
+
+cmd({
+    pattern: "alive",
+    desc: "Check bot online or no.",
+    category: "main",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+
+let des = `*╔╭────────────╮╕*
+*╭│ⱧＥLLO, I'm Alive Now👾  │─◎◎▷*
+*╘╰────────────╯╜*
+*│A QUEEN-KYLIE-MD │Whatsapp Bot Based │Many │Services With A │RealTime* *Automated │Consversational* *││Experience, Enjoy💫.*
+*| So,I Think This Bots Are Useful To You.📍*
+
+> *ᴜᴘᴛɪᴍᴇ:-  ${runtime(process.uptime())}*    
+> *► ʀᴀᴍ ᴜꜱᴀɢᴇ:- ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+> *► ʜᴏꜱᴛ ɴᴀᴍᴇ:- ${os.hostname()}*
+> *►ᴏᴡɴᴇʀ:- ꜱᴀʜᴀꜱ ɴᴇᴛʜꜱᴀʀᴀ*
+> *► ᴠᴇʀꜱɪᴏɴ:- 1.0.0*
+
+*│*
+*│Type .menu To Get Bot User*
+*│Menu💫*
+*╰───────────────◎◎▷*
+*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
+return await conn.sendMessage(from,{image: {url: https://telegra.ph/file/9b44e3266c065df601430.jpg},caption: des},{quoted: mek})
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
