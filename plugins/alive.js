@@ -16,7 +16,7 @@ let des = `*╔╭────────────╮╕*
 *│A QUEEN-KYLIE-MD │Whatsapp Bot Based │Many │Services With A │RealTime* *Automated │Consversational* *││Experience, Enjoy💫.*
 *| So,I Think This Bots Are Useful To You.📍*
 
-> *ᴜᴘᴛɪᴍᴇ:-  ${runtime(process.uptime())}*    
+> *►ᴜᴘᴛɪᴍᴇ:-  ${runtime(process.uptime())}*    
 > *► ʀᴀᴍ ᴜꜱᴀɢᴇ:- ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
 > *► ʜᴏꜱᴛ ɴᴀᴍᴇ:- ${os.hostname()}*
 > *►ᴏᴡɴᴇʀ:- ꜱᴀʜᴀꜱ ɴᴇᴛʜꜱᴀʀᴀ*
