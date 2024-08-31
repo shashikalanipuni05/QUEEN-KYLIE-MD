@@ -1,3 +1,5 @@
+const { cmd, commands } = require('../command')
+
 cmd({
     pattern: ".img2url",
     react: "🔄",
