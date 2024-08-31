@@ -1,28 +1,20 @@
 cmd({
-    pattern: "img2url",
-    react: "🔗",
-    alias: ["tourl","imgurl","telegraph","imgtourl"],
-    desc: "to convert image to url",
+    pattern: ".img2url",
+    react: "🔄",
+    desc: "Image To Url",
     category: "convert",
-    use: '.img2url <reply image>',
+    use: '.img2url',
     filename: __filename
 },
-async(conn, mek, m,{from, l, prefix, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-    try{
-    const isQuotedViewOnce = m.quoted ? (m.quoted.type === 'viewOnceMessage') : false
-    const isQuotedImage = m.quoted ? ((m.quoted.type === 'imageMessage') || (isQuotedViewOnce ? (m.quoted.msg.type === 'imageMessage') : false)) : false
-    if ((m.type === 'imageMessage') || isQuotedImage) {
-const fileType = require("file-type");
-  var nameJpg = getRandom('');
-  let buff = isQuotedImage ? await m.quoted.download(nameJpg) : await m.download(nameJpg)
-  let type = await fileType.fromBuffer(buff);
-  await fs.promises.writeFile("./" + type.ext, buff);
-  img2url("./" + type.ext).then(async url => {
-    await reply('\n' + url + '\n');
-});
-    } else return reply()
+async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{                   
+                                  
+         	let users = mek.mentionedJid ? mek.mentionedJid : mek.quoted ? mek.quoted.sender : q.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await conn.groupParticipantsUpdate(mek.chat, [users], 'img2url').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+reply('🛑 YOUR IMAGE GOT URL CREATED ✅')
+await conn.sendMessage(from, { react: { text: `✅`, key: mek.key }}) 
 } catch (e) {
-  reply();
-  l(e);
+reply('*Done ✓✓*')
+l(e)
 }
 })
