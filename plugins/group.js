@@ -226,7 +226,7 @@ cmd({
 reply('*Error !!*')
 l(e)
 }
-      }
+})
 cmd({
     pattern: "apply",
     react: "🔰",
