@@ -4,19 +4,19 @@ const {sleep} = require('../lib/functions')
 
 cmd({
     pattern: "restart",
-    desc: "restart the bot QUEEN-KYLIE-MD",
+    react: "♻️",
+    desc: "restart bot",
     category: "owner",
-    react: "🌀",
+    use: '.restart',
     filename: __filename
 },
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants,  isItzcp, groupAdmins, isBotAdmins, isAdmins, reply,react}) => {
 try{
-const {exec} = require("child_process")
-reply("restarting...")
-await sleep(1500)
-exec("pm2 restart all")
-}catch(e){
-console.log(e)
-reply(`${e}`)
+    if (!isOwner) return;
+    await conn.sendMessage(m.chat , { text : mg.restartmg } , { quoted: mek } );
+    process.exit(143)
+} catch (e) {
+reply('*Error !!*')
+l(e)
 }
 })
