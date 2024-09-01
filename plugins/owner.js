@@ -22,7 +22,7 @@ let dec = `*🧚‍♀️𝐐𝐔𝐄𝐄𝐍 𝐊𝐘𝐋𝐈𝐄-𝐌𝐃🧚�
 
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
 `
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/1b18a9d5c6e02a9b1faa3.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/749e71c525eef11db71e2.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
