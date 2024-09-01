@@ -13,7 +13,7 @@
 
   <p align="center">
 <a href="https://github.com/QUEEN-KYLIE-MD-01/QUEEN-KYLIE-MD/new/main">
-    <img src="https://telegra.ph/file/1b18a9d5c6e02a9b1faa3.jpg"  width="700px">
+    <img src="https://telegra.ph/file/5f450004250b52156b75c.jpg"  width="700px">
 </a>
 <hr>
 
