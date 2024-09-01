@@ -13,14 +13,13 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{ 
 
-let status =`╭───────────────────●●►
-*├⚙️𝙿𝙻𝙰𝚃𝙵𝙾𝚁𝙼 : ${os.hostname()*
-*├🕘𝚄𝙿𝚃𝙸𝙼𝙴 : ${runtime(process.uptime())}*       
-*├📟𝚁𝙰𝙼 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*          
-*├🌐𝙼𝙾𝙳𝙴 : ${mg.mode}* 
-*├ 👾𝚅𝙴𝚁𝚂𝙸𝙾𝙽 : 1.0.0*              
-*├👨‍💻𝙾𝚆𝙽𝙴𝚁𝚂 : Sahas Nethsara*
-╰───────────────────●●►
+let status =`┌────────────────────
+    *├ ⏳Uptime:-  ${runtime(process.uptime())}*    
+    *├ 📟Ram usage:- ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+    *├ ⚙️HostName:- ${os.hostname()}*
+    *├ 👨‍💻Owner:- Sahas Nethsara*   
+    *├ 🤖versions:- 1.0.0*
+    └───────────────────────
 
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
 return reply(`${status}`)
