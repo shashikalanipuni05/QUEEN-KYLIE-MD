@@ -1,5 +1,6 @@
 const config = require('../config');
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson} = require('../lib/functions');
+const fileType = require("file-type");
 const { cmd, commands } = require('../command');
 let { img2url } = require('@blackamda/telegram-image-url');
 
