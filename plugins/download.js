@@ -1,4 +1,3 @@
-
 const { fetchJson } = require('../lib/functions')
 const config = require('../config')
 const { cmd, commands } = require('../command')
@@ -97,7 +96,7 @@ cmd({
     alias: ["googledrive"],
     desc: "download gdrive files",
     category: "download",
-    react: "🔎",
+    react: "📥",
     filename: __filename
 },
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -119,7 +118,7 @@ cmd({
     alias: ["mfire"],
     desc: "download mfire files",
     category: "download",
-    react: "🔎",
+    react: "📥",
     filename: __filename
 },
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -141,7 +140,7 @@ cmd({
     alias: ["modapk"],
     desc: "download apks",
     category: "download",
-    react: "🔎",
+    react: "📥",
     filename: __filename
 },
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
