@@ -28,6 +28,7 @@ let dec = `*╭───────────◉◉►*
 *│►.mediafire*
 *│►.twitter*
 *│►.gdrive*
+*│►.apk*
 *│►.img*
 *│►.kylie*
 │─────────
