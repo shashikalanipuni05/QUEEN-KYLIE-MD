@@ -20,6 +20,10 @@ let des = `*╔╭────────────╮╕*
 *│Type .menu To Get Bot User*
 *│Menu💫*
 *╰───────────────◎◎▷*
+ *➣ ʏᴏᴜᴛᴜʙᴇ⚡*= https://www.youtube.com/@Sahas_Tech
+
+*➣ ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ⚡* = https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
 return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/5f450004250b52156b75c.jpg`},caption: des},{quoted: mek})
 }catch(e){
