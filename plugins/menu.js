@@ -47,6 +47,7 @@ let dec = `*╭───────────◉◉►*
 *│►.demote*
 *│►.remove*
 *│►.setpic*
+*│►.del*
 *│►.add*
 *│►.setwelcome*
 *│►.setgoodbye*
