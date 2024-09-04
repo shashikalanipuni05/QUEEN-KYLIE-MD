@@ -13,7 +13,9 @@ try{
 const voice = {
     menu: 'media/AUD-20240904-WA0432.mp3'
 }
-let dec = `*╭───────────◉◉►*
+let dec = `*👋 Hello ${pushname}*
+
+*╭───────────◉◉►*
 *│Hey, I'm QUEEN-KYLIE-MD, Created By*
 *│Sahas Tech✨🍂*
 *│*
