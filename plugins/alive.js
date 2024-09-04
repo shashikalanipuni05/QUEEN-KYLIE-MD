@@ -13,7 +13,8 @@ try{
 const voice = {
     alive: 'media/AUD-20240904-WA0426.mp3'
 }
-let des = `*╔╭────────────╮╕*
+let des = `*👋 Hello ${pushname}*
+*╔╭────────────╮╕*
 *╭│ⱧＥLLO, I'm Alive Now👾  │─◎◎▷*
 *╘╰────────────╯╜*
 *│A QUEEN-KYLIE-MD │Whatsapp Bot Based │Many │Services With A │RealTime* *Automated │Consversational* *││Experience, Enjoy💫.*
