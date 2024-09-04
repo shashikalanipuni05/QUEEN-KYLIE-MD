@@ -16,7 +16,7 @@ const voice = {
 let des = `*👋 Hello ${pushname}*
 
 *╔╭────────────╮╕*
-*╭│ⱧＥLLO, I'm Alive Now👾  │─◎◎▷*
+*╭│I'm Alive Now👾  │─◎◎▷*
 *╘╰────────────╯╜*
 *│A QUEEN-KYLIE-MD │Whatsapp Bot Based │Many │Services With A │RealTime* *Automated │Consversational* *││Experience, Enjoy💫.*
 *| So,I Think This Bots Are Useful To You.📍*
