@@ -27,7 +27,7 @@ let dec = `*👋 Hello ${pushname}*
 
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
 `
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/749e71c525eef11db71e2.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/698277ebeb3453557e208.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
