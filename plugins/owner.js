@@ -11,9 +11,9 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `🧚‍♀️𝐐𝐔𝐄𝐄𝐍 𝐊𝐘𝐋𝐈𝐄-𝐌𝐃🧚‍♀️
+let dec = `*👋 Hello ${pushname}*
 
-> *𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢* 
+> *MY OWNER INFO* 
 
 *⚡ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: ꜱᴀʜᴀꜱ ɴᴇᴛʜꜱᴀʀᴀ (ꜱᴀʜᴀꜱ ᴛᴇᴄʜ)*
 *⚡ɴᴜᴍʙᴇʀ* -: 94718913389
