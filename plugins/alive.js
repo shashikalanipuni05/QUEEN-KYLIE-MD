@@ -11,7 +11,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const voice = {alive: media/AUD-20240904-WA0426.mp3
-        }
+}
 let des = `*╔╭────────────╮╕*
 *╭│ⱧＥLLO, I'm Alive Now👾  │─◎◎▷*
 *╘╰────────────╯╜*
