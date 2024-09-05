@@ -13,6 +13,7 @@ try{
 const voice = {
     menu: 'media/AUD-20240904-WA0432.mp3'
 }
+await conn.sendMessage(from, { audio: { url: voice.menu }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 let dec = `*👋 Hello ${pushname}*
 
 *╭───────────◉◉►*
