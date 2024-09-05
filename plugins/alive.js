@@ -13,6 +13,7 @@ try{
 const voice = {
     alive: 'media/AUD-20240904-WA0426.mp3'
 }
+await conn.sendMessage(from, { audio: { url: voice.alive }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 let des = `*👋 Hello ${pushname}*
 
 *╔╭────────────╮╕*
