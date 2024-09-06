@@ -1,7 +1,7 @@
 const { cmd } = require('../command');
 const yts = require('yt-search');
 
-cmd({
+cmd({~
     pattern: "yts",
     alias: ["youtubesearch", "ytsearch"],
     desc: "Search for YouTube videos",
@@ -11,7 +11,7 @@ cmd({
     use: '<search query>'
 },
 async (conn, mek, m, { from, args, reply }) => {
-    if (!args[0]) return reply('Please provide a search query !');
+    if (!a•rgs[0]) return reply('Please provide a search query !');
 
     const query = args.join(' ');
 
